@@ -6,24 +6,53 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Project tracking intro component</title>
 </head>
 <body>
-  Product
-  Features
-  Pricing
-  Login
-
-  New
-  Monograph Dashboard
-
-  Powerful insights into your team
-  Project planning and time tracking for agile teams
-
-  Schedule a demo
-  to see a live preview
+  <nav class="nav">
+    <a href="#" class="home-link">
+     <img src="images/logo.svg" alt="logo" class="logo">
+    </a>
+    <button class="nav__toggle nav__toggle--close">
+     <img src="images/icon-close.svg" alt="close" class="nav__icon">
+    </button>
+    <button class="nav__toggle nav__toggle--open">
+     <img src="images/icon-hamburger.svg" alt="open" class="nav__icon">
+    </button>
+    <ul class="nav__menu">
+     <li class="nav__menu-item"><a href="#" class="nav__link">Product</a></li>
+     <li class="nav__menu-item"><a href="#" class="nav__link">Features</a></li>
+     <li class="nav__menu-item"><a href="#" class="nav__link">Pricing</a></li>
+     <li class="nav__menu-item nav__menu-item--dot"></li>
+     <li class="nav__menu-item"><a href="#" class="nav__link nav__link--action">Login</a></li>
+    </ul>
+  </nav>
+  <section class="hero">
+   <header class="hero__header">
+    <h1 class="title">
+     <small class="title--info">New</small>
+     Monograph dashboard
+    </h1>
+    <h2 class="hero__title">
+     Powerful insights into your team
+    </h2>
+    <p class="hero__text">
+     Project planning and time tracking for agile teams
+    </p>
+    <p class="hero__cta">
+     <button class="btn">schedule a demo</button>
+     to see a preview
+    </p>
+   </header>
+   <div class="hero__image">
+   </div>
+  </section>
   <script src="script.js"></script>
 </body>
 </html>
