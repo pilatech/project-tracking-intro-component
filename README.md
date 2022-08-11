@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [here](https://github.com/pilatech/project-tracking-intro-component)
-- Live Site URL: [here](https://your-live-site-url.com)
+- Live Site URL: [here](https://project-tracking-intro-component-by-pilate.netlify.app/)
 
 ### Built with
 
